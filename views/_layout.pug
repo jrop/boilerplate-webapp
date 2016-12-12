@@ -1,0 +1,9 @@
+block vars
+html
+	head
+		title #{title}
+		block head
+			link(rel='stylesheet', href='/css/style.css')
+			script(src='/js/common.js')
+	body
+		block main
